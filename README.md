@@ -1,38 +1,30 @@
-# Nodebox
+# MEANbox-Trusty
 
-## Requirements
+## Requisitos previos
 
 * Vagrant
 * Virtualbox
 
-## Informations
+## Información
 
-Easy nodejs and mongoDB vagrant box for your next small webapp.
+Caja Vagrant que contiene todas las herramientas necesarias para desarrollar aplicaciones que hagan uso de la pila MEAN (MongoDB+Express+AngularJS+Node.js).
 
-#### Installed software
+#### Software instalado
 
-* MongoDB
 * Node.js
-* npm (with grunt-cli and bower)
+* MongoDB
+* Yeoman (con [AngularJS + Express Full Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack))
+* Karma
 
-#### Ports
+#### Puertos
 
-The only configured port is 3000 for your nodejs app.
+Usa el puerto 3000 para acceder a las aplicaciones que se sirven desde tu caja Vagrant. La variable de Node ``process.env.PORT`` está establecida a 3000.
 
-#### Shared folders
+#### Carpetas compartidas
 
-Your projects is shared in:
-``/var/nodespace/project/``
+Los proyectos de la carpeta ``proyectos`` se compartirán en el directorio ``~/proyectos/`` de la caja.
 
-All resources e.g. the database dump:
-``/var/nodespace/resource/``
-
-#### MongoDB Dumps
-
-You can add your MongoDB export to the ``/resource/mongoDump/`` folder.
-The database will be called mongoDump.
-
-# Licences
+# Licencia
 
 MIT
-vagrant-node
+Caja Vagrant adaptada a partir de [vagrant-node](https://github.com/Silom/vagrant-node).

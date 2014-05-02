@@ -7,13 +7,13 @@
 
 ## Información
 
-Caja Vagrant que contiene todas las herramientas necesarias para desarrollar aplicaciones que hagan uso de la pila MEAN (**M**ongoDB+**E**xpress+**A**ngularJS+**N**ode.js). Construida sobre **Ubuntu 14.04 LTS**.
+Caja Vagrant que contiene todas las herramientas necesarias para desarrollar aplicaciones que hagan uso de la pila MEAN (MongoDB + Express + AngularJS + Node.js). Construida sobre **Ubuntu 14.04 LTS**.
 
 #### Software instalado
 
-* Node.js
+* Node.js v0.10.28
 * MongoDB
-* Yeoman (con [AngularJS + Express Full Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack))
+* Yeoman (con el generador [MEAN.JS](http://meanjs.org/generator.html))
 
 #### Puertos
 

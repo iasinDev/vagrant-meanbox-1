@@ -1,6 +1,9 @@
 apt-get update -y -q
 apt-get install git build-essential mongodb -y -q
 
+mkdir -p /data/db
+chmod 777 /data/db
+
 wget --quiet http://nodejs.org/dist/v0.10.28/node-v0.10.28-linux-x64.tar.gz
 tar -zxf node-v0.10.28-linux-x64.tar.gz
 mv node-v0.10.28-linux-x64/ /opt/node/

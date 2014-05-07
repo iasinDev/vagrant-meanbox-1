@@ -17,7 +17,7 @@ Caja Vagrant que contiene todas las herramientas necesarias para desarrollar apl
 
 #### Puertos
 
-Usa el puerto *3000* para acceder a las aplicaciones que se sirven desde tu caja Vagrant. La variable de Node ``process.env.PORT`` está establecida a *3000*.
+Usa el puerto *3000* para acceder a las aplicaciones que se sirven desde tu caja Vagrant. La variable de Node ``process.env.PORT`` está establecida a *3000* y ``process.env.IP`` a la IP de la máquina Vagrant.
 
 #### Carpetas compartidas
 

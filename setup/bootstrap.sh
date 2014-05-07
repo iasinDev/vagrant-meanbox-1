@@ -13,3 +13,4 @@ ln -s /opt/node/bin/npm /usr/bin/npm
 npm install -g bower grunt-cli yo generator-meanjs
 
 echo "export PORT=3000" >> /home/vagrant/.bashrc
+echo "export IP=`hostname -i`" >> /home/vagrant/.bashrc
